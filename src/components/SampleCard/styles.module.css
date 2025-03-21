@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: start;
+  padding: 2rem 1rem;
+  width: 100%;
+  perspective: 1200px;
+}
+.rtl{
+  flex-direction: row-reverse;
+}
+
+.images {
+  width: 65vw;
+  border-radius: 5px;
+  transform: rotateY(10deg) scale(.9) translateX(10px) translateY(-10px);
+  transform-origin: center;
+  box-shadow: 0 0 10px 0 #c0c0c0;
+}
+.imagesRtl{
+  transform: rotateY(-10deg) scale(.9) translateX(-10px) translateY(-10px);
+}
+
+.description {
+  flex: 1;
+}
