@@ -1,0 +1,20 @@
+{
+  "id": "nebula-note",
+  "title": "test",
+  "description": "",
+  "source": "@site/docs/nebula-note.md",
+  "sourceDirName": ".",
+  "slug": "/nebula-note",
+  "permalink": "/docs/nebula-note",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ASER1989/aser1989.cn/docs/nebula-note.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

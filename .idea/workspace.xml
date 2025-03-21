@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c1564af-5e86-4693-90d5-ad74620e7104" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.docusaurus/DONT-EDIT-THIS-FOLDER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/client-modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/codeTranslations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/__plugin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/blogMetadata-default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-archive-f05.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-authors-790.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-authors-all-sebastien-lorber-articles-6eb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-authors-xu-4e8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-authors-yangshun-af2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-bd9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-tags-blog-a4e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-tags-df9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-tags-docusaurus-f20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-tags-facebook-f47.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-tags-hello-f96.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-tags-hola-73f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-tags-redux-385.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2019-05-28-first-blog-post-md-e27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2019-05-29-long-blog-post-md-736.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2021-08-01-mdx-blog-post-mdx-593.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2021-08-26-welcome-index-md-d9f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2025-01-14-index-md-eaa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2025-02-17-index-md-347.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/__plugin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/p/docs-175.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/p/docs-category-tutorial-basics-ea4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/p/docs-category-tutorial-extras-128.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-intro-md-0e3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-nebula-note-md-862.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-congratulations-md-822.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-blog-post-md-533.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-document-md-1e4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-page-md-5c8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-deploy-your-site-md-f55.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-markdown-features-mdx-18c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-extras-manage-docs-versions-md-dff.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-extras-translate-your-site-md-e44.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-pages/default/__plugin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-pages/default/site-src-pages-markdown-page-md-393.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-debug/default/__plugin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-debug/default/p/docusaurus-debug-content-0d5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/docusaurus.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/globalData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/i18n.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/registry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/routesChunkNames.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/site-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docusaurus/site-storage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aser1989.cn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/authors.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/tags.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-basics/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-basics/congratulations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-basics/create-a-blog-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-basics/create-a-document.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-basics/create-a-page.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-basics/deploy-your-site.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-basics/markdown-features.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-extras/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-extras/img/docsVersionDropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-extras/img/localeDropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-extras/manage-docs-versions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/tutorial-extras/translate-your-site.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomepageFeatures/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomepageFeatures/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/markdown-page.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/docusaurus-social-card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/docusaurus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/undraw_docusaurus_mountain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/undraw_docusaurus_react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/undraw_docusaurus_tree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2rbgoaWWYqwDEpn9r8LJTaOWsQM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aser/Documents/aser1989.cn/aser1989.cn&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/2025-01-14" />
+      <recent name="$PROJECT_DIR$/static/intro" />
+      <recent name="$PROJECT_DIR$/src/components/SampleCard" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/poster" />
+      <recent name="$PROJECT_DIR$/static/intro" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c1564af-5e86-4693-90d5-ad74620e7104" name="Changes" comment="" />
+      <created>1736833364886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736833364886</updated>
+      <workItem from="1736833366507" duration="18114000" />
+      <workItem from="1739761013640" duration="9364000" />
+      <workItem from="1741745598058" duration="318000" />
+      <workItem from="1742535291023" duration="440000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

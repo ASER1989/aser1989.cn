@@ -1,0 +1,17 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "index",
+      "permalink": "/blog/2025/02/17/index",
+      "unlisted": false,
+      "date": "2025-02-17T00:00:00.000Z"
+    },
+    {
+      "title": "再谈Redux",
+      "permalink": "/blog/redux",
+      "unlisted": false,
+      "date": "2025-01-14T00:00:00.000Z"
+    }
+  ]
+}
