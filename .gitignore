@@ -13,5 +13,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.local
+build
+.docusaurus
 
 project.private.config.json

@@ -3,48 +3,8 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', 'f46'),
-    exact: true
-  },
-  {
-    path: '/blog/2025/02/17/index',
-    component: ComponentCreator('/blog/2025/02/17/index', '802'),
     exact: true
   },
   {
@@ -59,7 +19,12 @@ export default [
   },
   {
     path: '/blog/authors/xu',
-    component: ComponentCreator('/blog/authors/xu', '4be'),
+    component: ComponentCreator('/blog/authors/xu', '11e'),
+    exact: true
+  },
+  {
+    path: '/blog/HTTPS',
+    component: ComponentCreator('/blog/HTTPS', 'a8f'),
     exact: true
   },
   {
@@ -73,6 +38,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/https',
+    component: ComponentCreator('/blog/tags/https', '926'),
+    exact: true
+  },
+  {
     path: '/blog/tags/redux',
     component: ComponentCreator('/blog/tags/redux', '77d'),
     exact: true
@@ -80,11 +50,6 @@ export default [
   {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
-    exact: true
-  },
-  {
-    path: '/sample.data',
-    component: ComponentCreator('/sample.data', '91b'),
     exact: true
   },
   {

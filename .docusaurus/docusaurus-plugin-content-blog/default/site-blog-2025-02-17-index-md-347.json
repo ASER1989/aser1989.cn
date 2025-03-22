@@ -1,15 +1,44 @@
 {
-  "permalink": "/blog/2025/02/17/index",
+  "permalink": "/blog/HTTPS",
   "editUrl": "https://www.aser1989.cn/blog/blog/2025-02-17/index.md",
   "source": "@site/blog/2025-02-17/index.md",
-  "title": "index",
+  "title": "前端视角看 HTTPS",
   "description": "最近用Docusaurus搭了一个个人网站，部署后看到浏览器地址栏上“不安全”三个字感觉特别辣眼，便不由自主的想起了HTTPS。回忆起自己在日常开发中遇到的一些与HTTPS相关的知识，忍不住想将这些年积累的一些细节和心得体会整理一下。",
   "date": "2025-02-17T00:00:00.000Z",
-  "tags": [],
-  "readingTime": 7.65,
+  "tags": [
+    {
+      "inline": true,
+      "label": "HTTPS",
+      "permalink": "/blog/tags/https"
+    }
+  ],
+  "readingTime": 7.61,
   "hasTruncateMarker": false,
-  "authors": [],
-  "frontMatter": {},
+  "authors": [
+    {
+      "name": "xu.huang",
+      "title": "Front End Engineer",
+      "url": "https://github.com/aser1989",
+      "page": {
+        "permalink": "/blog/authors/xu"
+      },
+      "socials": {
+        "github": "https://github.com/aser1989"
+      },
+      "imageURL": "https://avatars.githubusercontent.com/u/12827139?s=96&v=4",
+      "key": "xu"
+    }
+  ],
+  "frontMatter": {
+    "slug": "HTTPS",
+    "title": "前端视角看 HTTPS",
+    "authors": [
+      "xu"
+    ],
+    "tags": [
+      "HTTPS"
+    ]
+  },
   "unlisted": false,
   "nextItem": {
     "title": "再谈Redux",

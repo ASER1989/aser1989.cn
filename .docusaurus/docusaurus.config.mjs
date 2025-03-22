@@ -16,7 +16,7 @@ export default {
   "i18n": {
     "defaultLocale": "zh-Hans",
     "locales": [
-      "en"
+      "zh-Hans"
     ],
     "path": "i18n",
     "localeConfigs": {}
