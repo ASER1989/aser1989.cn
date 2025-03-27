@@ -14,6 +14,6 @@ yarn-error.log*
 *.sln
 *.local
 build
-.docusaurus
-
+.docusaurus/
+.idea/
 project.private.config.json
