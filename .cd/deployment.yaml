@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aser1989-cn
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aser1989-cn
+  template:
+    metadata:
+      labels:
+        app: aser1989-cn
+    spec:
+      containers:
+        - name:  aser1989-cn
+          image: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+      imagePullSecrets:
+        - name: aliyun-registry-secret
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: aser1989-cn-service
+  namespace: default
+spec:
+  selector:
+    app: aser1989-cn  # 选择匹配 Deployment 中的标签
+  ports:
+    - protocol: TCP
+      port: 80       # Service 暴露的端口
+      targetPort: 80 # 发送到 Pod 内部的端口
+  type: ClusterIP  # Service 类型（可改为 NodePort 或 LoadBalancer）
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: aser1989-cn-ingress
+  namespace: default
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-production
+    kubernetes.io/ingress.class: traefik
+spec:
+  tls:
+    - hosts:
+        - www.aser1989.cn
+      secretName: aser1989-blog-cert  # 绑定 TLS 证书（由 cert-manager 创建）
+  rules:
+    - host: www.aser1989.cn
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: aser1989-cn-service
+                port:
+                  number: 80

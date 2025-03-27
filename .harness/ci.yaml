@@ -1,0 +1,39 @@
+kind: pipeline
+spec:
+  stages:
+    - name: build
+      spec:
+        platform:
+          arch: amd64
+          os: linux
+        steps:
+          - name: install
+            spec:
+              container:
+                image: node
+              script:
+                - yarn install
+            type: run
+          - name: build
+            spec:
+              container:
+                image: node
+              script:
+                - yarn build
+            type: run
+          - name: dockerBuild
+            connectorRef: ${{ secrets.get("DOCKER_MIRROR_PROXY") }}
+            spec:
+              inputs:
+                dry_run: false
+                repo: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn
+                registry: registry.cn-hangzhou.aliyuncs.com
+                username: ${{ secrets.get("DOCKER_USERNAME") }}
+                password: ${{ secrets.get("DOCKER_PASSWORD") }}
+                tags: latest
+                debug: false
+                mirror: ${{ secrets.get("DOCKER_MIRROR_PROXY") }}
+              name: docker
+            type: plugin
+      type: ci
+version: 1
