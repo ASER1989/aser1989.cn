@@ -7,15 +7,15 @@
   },
   {
     "images": [
-      "/poster/redux_hooks_poster.png"
+      "/poster/nebula_ui_poster.png"
     ],
-    "docUrl": "/samples/redux-hooks.md",
+    "docUrl": "/samples/nebula-note-ui.md",
     "rtl": true
   },
   {
     "images": [
-      "/poster/nebula_ui_poster.png"
+      "/poster/redux_hooks_poster.png"
     ],
-    "docUrl": "/samples/nebula-note-ui.md"
+    "docUrl": "/samples/redux-hooks.md"
   }
 ]

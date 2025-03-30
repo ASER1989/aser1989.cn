@@ -1,9 +1,10 @@
 .container {
-  display: flex;
+  /*display: flex;*/
   align-items: start;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   width: 100%;
   perspective: 1200px;
+  clear: both;
 }
 .rtl{
   flex-direction: row-reverse;
@@ -15,9 +16,11 @@
   transform: rotateY(10deg) scale(.9) translateX(10px) translateY(-10px);
   transform-origin: center;
   box-shadow: 0 0 10px 0 #c0c0c0;
+  float: left;
 }
 .imagesRtl{
   transform: rotateY(-10deg) scale(.9) translateX(-10px) translateY(-10px);
+  float: right;
 }
 
 .description {
