@@ -54,7 +54,7 @@ spec:
       kind: Rule
       services:
         - name: aser1989-cn-service
-          port: 8083
+          port: 80
       middlewares:
         - name: compress-middleware
         # - name: cache-control
