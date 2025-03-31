@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- Add licence
+- Add license
 
 ## 1.0.1
 
