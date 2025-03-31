@@ -37,27 +37,26 @@ spec:
   type: ClusterIP  # Service 类型（可改为 NodePort 或 LoadBalancer）
 
 ---
-apiVersion: networking.k8s.io/v1
-kind: Ingress
+
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
 metadata:
   name: aser1989-cn-ingress
   namespace: default
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-production
-    kubernetes.io/ingress.class: traefik
 spec:
+  entryPoints:
+    - web
+    - websecure
+  routes:
+    - match: Host(`www.aser1989.cn`)
+      kind: Rule
+      services:
+        - name: aser1989-cn-service
+          port: 8083
+      middlewares:
+        - name: compress-middleware
+        # - name: cache-control
   tls:
-    - hosts:
-        - www.aser1989.cn
-      secretName: aser1989-blog-cert  # 绑定 TLS 证书（由 cert-manager 创建）
-  rules:
-    - host: www.aser1989.cn
-      http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: aser1989-cn-service
-                port:
-                  number: 80
+    secretName: aser1989-blog-cert
