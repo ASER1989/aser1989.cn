@@ -1,5 +1,5 @@
 ---
-slug: HTTPS
+slug: https
 title: 前端视角看 HTTPS
 authors: [xu]
 tags: [HTTPS]

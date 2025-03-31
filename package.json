@@ -1,7 +1,8 @@
 {
   "name": "aser1989.cn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -12,7 +13,10 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "dev": "docusaurus start"
+    "dev": "docusaurus start",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
   },
   "dependencies": {
     "@docusaurus/core": "3.6.0",
@@ -25,6 +29,7 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.28.1",
     "@docusaurus/module-type-aliases": "3.6.0",
     "@docusaurus/types": "3.6.0",
     "marked": "^15.0.6"
