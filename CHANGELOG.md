@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.7
+
+### Patch Changes
+
+- add traefik config documents
+
 ## 1.0.6
 
 ### Patch Changes
