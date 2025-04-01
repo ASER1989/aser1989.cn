@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 # Let’s Encrypt 配置
-Let’s Encrypt提供了免费的SSL证书，可以为网站启用HTTPS。K3s默认使用Traefik作为Ingress Controller，Traefik支持自动为网站生成Let’s Encrypt证书。启用HTTPS是开启H2协议的前提条件。当前文档内容整理自一篇国外博客。
+Let’s Encrypt提供了免费的SSL证书，可以为网站启用HTTPS。K3s默认使用Traefik作为Ingress Controller，Traefik支持自动为网站生成Let’s Encrypt证书。启用HTTPS是开启H2协议的前提条件。当前文档内容整理自一篇国外网友的博客。
 
 ## Installation
 ``` sh

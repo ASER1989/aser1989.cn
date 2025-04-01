@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.9
+
+### Patch Changes
+
+- add argocd documents
+
 ## 1.0.8
 
 ### Patch Changes
