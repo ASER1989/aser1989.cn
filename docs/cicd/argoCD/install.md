@@ -44,7 +44,7 @@ spec:
 kubectl apply -f ingress.yaml
 ```
 ## 问题
-通常这个时候还不能正常访问，因为argocd默认使用了自签名证书，并强制通过https进行访问，这个时候直接访问极大可能会出现无限重定向。Argo CD官方文档中有详细的介绍证书想过的内容[文档](https://argo-cd.readthedocs.io/en/stable/operator-manual/tls/)。这里重点介绍--insecure（完全禁用 TLS）选项，因为Ingress上已经配置了证书，所以这里直接使用`--insecure`选项即可。
+通常这个时候还不能正常访问，因为argocd默认使用了自签名证书，并强制通过https进行访问，这个时候直接访问极大可能会出现无限重定向。Argo CD官方文档中有详细的介绍证书相关的[文档](https://argo-cd.readthedocs.io/en/stable/operator-manual/tls/)。这里重点介绍--insecure（完全禁用 TLS）选项，因为Ingress上已经配置了证书，所以这里直接使用`--insecure`选项即可。
 
 ### 修改Argo CD配置
 ```shell
