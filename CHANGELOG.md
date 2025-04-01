@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.10
+
+### Patch Changes
+
+- try auto sync
+
 ## 1.0.9
 
 ### Patch Changes
