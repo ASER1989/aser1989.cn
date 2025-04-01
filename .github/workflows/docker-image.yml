@@ -45,3 +45,11 @@ jobs:
         run: |
           docker push registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:${{ env.VERSION }}
           docker push registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:latest
+          
+      - name: Update deployment.yaml
+        run: |
+          sed -i "s|image: myrepo/myapp:.*|image: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:${{ env.VERSION }}|" .argocd/deployment.yaml
+          git config --global user.email "aser1989@sina.com"
+          git config --global user.name "CI Bot"
+          git commit -am "Update deployment image to ${{ env.VERSION }}"
+          git push     
