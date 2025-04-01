@@ -12,21 +12,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-        
-      - name: Configure Git
-        run: |
-          git config --global user.email "aser1989@sina.com"
-          git config --global user.name "CI Bot"
-      
-      - name: Authenticate with GitHub
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/ASER1989/aser1989.cn.git
-      
-      - name: Update deployment.yaml
-        run: |
-          sed -i "s|image: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:.*|image: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:${{ github.sha }}|" .argocd/deployment.yaml
-          git commit -am "Update deployment image to ${{ github.sha }}"
-          git push
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -61,4 +46,17 @@ jobs:
           docker push registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:${{ env.VERSION }}
           docker push registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:latest
           
-       
+      - name: Configure Git
+        run: |
+          git config --global user.email "aser1989@sina.com"
+          git config --global user.name "CI Bot"
+      
+      - name: Authenticate with GitHub
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/ASER1989/aser1989.cn.git
+      
+      - name: Update deployment.yaml
+        run: |
+          sed -i "s|image: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:.*|image: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:${{ env.VERSION }}|" .argocd/deployment.yaml
+          git commit -am "Update deployment image to ${{ env.VERSION }}"
+          git push
