@@ -1,6 +1,6 @@
 {
   "name": "aser1989.cn",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": true,
   "license": "CC0-1.0",
   "scripts": {
@@ -14,6 +14,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "dev": "docusaurus start",
+    "changeset:update": "changeset && changeset version",
     "changeset": "changeset",
     "changeset:version": "changeset version",
     "changeset:publish": "changeset publish"

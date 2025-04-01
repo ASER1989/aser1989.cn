@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.6
+
+### Patch Changes
+
+- update home page
+
 ## 1.0.5
 
 ### Patch Changes
