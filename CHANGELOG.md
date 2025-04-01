@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.5
+
+### Patch Changes
+
+- update cluster document
+
 ## 1.0.4
 
 ### Patch Changes

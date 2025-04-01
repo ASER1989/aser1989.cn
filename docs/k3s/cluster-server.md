@@ -92,5 +92,45 @@ kubectl get nodes
 | 10250        | kubelet               |
 | 30000-32767  | NodePort 服务范围     |
 
+## 完整配置参考
+**主节点配置**
+```shell
+[Unit]
+Description=Lightweight Kubernetes
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/k3s server --node-external-ip <主节点公网IP> --flannel-backend=wireguard-native --flannel-external-ip
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
+```
+
+**Agent配置**
+```shell
+[Unit]
+Description=K3s Agent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=exec
+# 替换 <server-ip> 和 <node-token>，保证它能连上主节点
+Environment="K3S_URL=https://<server-ip>:6443"
+Environment="K3S_TOKEN=<node-token>"
+ExecStart=/usr/local/bin/k3s agent --node-external-ip <Agent公网IP>
+Restart=always
+RestartSec=5
+LimitNOFILE=1048576
+LimitNPROC=infinity
+LimitCORE=infinity
+
+[Install]
+WantedBy=multi-user.target
+```
+
 ## 参考资料
-[Basic Network Options](https://docs.k3s.io/zh/networking/basic-network-options)
+[Basic Network Options](https://docs.k3s.io/zh/networking/basic-network-options)    
+[Distributed hybrid or multicloud cluster](https://docs.k3s.io/zh/networking/distributed-multicloud)
