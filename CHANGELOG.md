@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.8
+
+### Patch Changes
+
+- update icon
+
 ## 1.0.7
 
 ### Patch Changes
