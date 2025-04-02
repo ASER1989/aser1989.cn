@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.13
+
+### Patch Changes
+
+- add document of redirect scheme for traefik
+
 ## 1.0.12
 
 ### Patch Changes
