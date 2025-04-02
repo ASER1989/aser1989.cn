@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name:  aser1989-cn
-          image: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:1.0.13
+          image: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:1.0.14
           imagePullPolicy: Always
           ports:
             - containerPort: 80
