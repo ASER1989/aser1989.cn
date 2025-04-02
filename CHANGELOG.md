@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.14
+
+### Patch Changes
+
+- update footer content
+
 ## 1.0.13
 
 ### Patch Changes

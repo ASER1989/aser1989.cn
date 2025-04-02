@@ -114,7 +114,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright ©${new Date().getFullYear()} aser1989.cn, Inc. Built with Docusaurus.<p><a href="https://beian.miit.gov.cn/" target="_blank" style="color:#FFFFFF">
+        copyright: `Copyright ©${new Date().getFullYear()} aser1989.cn, All rights reserved. Built with Docusaurus.<p><a href="https://beian.miit.gov.cn/" target="_blank" style="color:#FFFFFF">
 渝ICP备2024045736号</a></p>`,
       },
       prism: {
