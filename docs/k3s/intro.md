@@ -36,5 +36,5 @@ Local Path Provisioner是Rancher开发的一种动态存储供应器（Storage P
 
 
 ## 参考资料  
-[K3s官方文档](https://docs.k3s.io/zh/)  
-[Rancher.cn](https://docs.rancher.cn/docs/k3s/_index)
+[1 . K3s官方文档](https://docs.k3s.io/zh/)  
+[2 . Rancher.cn](https://docs.rancher.cn/docs/k3s/_index)

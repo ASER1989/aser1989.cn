@@ -132,5 +132,5 @@ WantedBy=multi-user.target
 ```
 
 ## 参考资料
-[Basic Network Options](https://docs.k3s.io/zh/networking/basic-network-options)    
-[Distributed hybrid or multicloud cluster](https://docs.k3s.io/zh/networking/distributed-multicloud)
+[1 . Basic Network Options](https://docs.k3s.io/zh/networking/basic-network-options)    
+[2 . Distributed hybrid or multicloud cluster](https://docs.k3s.io/zh/networking/distributed-multicloud)

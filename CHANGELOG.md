@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.11
+
+### Patch Changes
+
+- Update argocd intro & Change reference style
+
 ## 1.0.10
 
 ### Patch Changes

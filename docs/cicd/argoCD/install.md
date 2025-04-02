@@ -1,8 +1,8 @@
 ---
 sidebar_position: 2
 ---
-## 安装
-在服务器上运行以下命令来安装Argo CD：
+# K3s上安装ArgoCD
+在K8s服务器上运行以下命令安装Argo CD：
 ```shell
 
 kubectl create namespace argocd
@@ -12,6 +12,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 安装配置清单中包含的ClusterRoleBinding资源引用了`argocd`名称空间。 如果要将Argo CD安装到不同的名称空间，请确保更新名称空间引用。
 
 ## 创建Ingress
+Argo CD的service默认为ClusterIP，官方文档中也描述了配置LoadBalancer的方式（详见[参考资料](#参考资料)），如果需要通过域名访问Argo CD，需要创建Ingress资源。以下是一个Traefik Ingress的示例：
 ```yaml
 # ingress.yaml
 apiVersion: networking.k8s.io/v1
@@ -92,4 +93,4 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ```
 
 ## 参考资料
-[官方文档](https://argo-cd.readthedocs.io/en/stable/)
+[1 . 官方文档](https://argo-cd.readthedocs.io/en/stable/)
