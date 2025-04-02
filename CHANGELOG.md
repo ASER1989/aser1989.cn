@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.12
+
+### Patch Changes
+
+- sync a new blog from my cnblogs
+
 ## 1.0.11
 
 ### Patch Changes
