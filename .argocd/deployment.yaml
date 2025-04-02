@@ -37,7 +37,24 @@ spec:
   type: ClusterIP  # Service 类型（可改为 NodePort 或 LoadBalancer）
 
 ---
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: aser1989-cn-web-ingress
+  namespace: default
+spec:
+  entryPoints:
+    - web
+  routes:
+    - match: Host(`www.aser1989.cn`)
+      kind: Rule
+      middlewares:
+        - name: https-redirect
+      services:
+        - name: my-service
+          port: 80
 
+---
 apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
@@ -47,7 +64,6 @@ metadata:
     cert-manager.io/cluster-issuer: letsencrypt-production
 spec:
   entryPoints:
-    - web
     - websecure
   routes:
     - match: Host(`www.aser1989.cn`)
