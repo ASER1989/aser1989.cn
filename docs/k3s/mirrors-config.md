@@ -4,6 +4,10 @@ sidebar_position: 2
 # K3s镜像源设置
 K3s默认使用containerd作为容器运行时，如果服务器不能正常访问registry-1.docker.io，可以设置镜像源，以便拉取公共镜像。
 
+:::warning[重要提示]
+如果是K3s集群，需要在所有节点上设置镜像源。
+::::
+
 ### 创建/修改 containerd 配置文件
 
 ``` sh
