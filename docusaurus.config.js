@@ -89,6 +89,9 @@ const config = {
   themeConfig:
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'keywords', content: 'aser1989,aser1989.cn,docs,blog'},
+      ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -105,6 +108,11 @@ const config = {
             label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'right'},
+          // {
+          //   position: 'right',
+          //   label: 'About',
+          //   href: '/about',
+          // },
           {
             href: 'https://github.com/ASER1989/aser1989.cn',
             label: 'GitHub',
@@ -114,8 +122,15 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright ©${new Date().getFullYear()} aser1989.cn, All rights reserved. Built with Docusaurus.<p><a href="https://beian.miit.gov.cn/" target="_blank" style="color:#FFFFFF">
-渝ICP备2024045736号</a></p>`,
+        copyright: `Copyright ©${new Date().getFullYear()} aser1989.cn, All rights reserved. Built with Docusaurus.
+                    <div style="display: flex;align-items: center;justify-content: center;gap: 10px;font-size: 12px">
+                        <div style="display: flex;align-items: center;gap: 3px">
+                            <img src="https://beian.mps.gov.cn/web/assets/logo01.6189a29f.png"  style="width: 16px"/>
+                            <a href="https://beian.mps.gov.cn/#/query/webSearch?code=50011202504994" style="color:#FFFFFF" rel="noreferrer" target="_blank">渝公网安备50011202504994号</a>
+                        </div>
+                        <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#FFFFFF">渝ICP备2024045736号</a>
+                    </div>
+                `,
       },
       prism: {
         theme: prismThemes.github,
