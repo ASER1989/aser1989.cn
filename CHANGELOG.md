@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.16
+
+### Patch Changes
+
+- update nebula note description
+
 ## 1.0.15
 
 ### Patch Changes
