@@ -11,18 +11,44 @@
 }
 
 .images {
+  --target-translate-x:-20px;
   width: 65vw;
   border-radius: 5px;
-  transform: rotateY(10deg) scale(.9) translateX(10px) translateY(-10px);
+  transform: rotateY(10deg) scale(.9) translateX(var(--target-translate-x)) translateY(-10px);
   transform-origin: center;
   box-shadow: 0 0 10px 0 #c0c0c0;
   float: left;
+  transition: transform 1s ease-in-out,
+    opacity 1s ease-in-out;
+  opacity: 0.3;
 }
+
+.images.imagesInView {
+  --target-translate-x:10px;
+  opacity: 1;
+}
+
 .imagesRtl{
-  transform: rotateY(-10deg) scale(.9) translateX(-10px) translateY(-10px);
+  --target-translate-x:20px;
+  transform: rotateY(-10deg) scale(.9) translateX(var(--target-translate-x)) translateY(-10px);
   float: right;
+}
+.imagesRtl.imagesInView {
+  --target-translate-x:-10px;
+  opacity: 1;
 }
 
 .description {
   flex: 1;
+  opacity: 0.5;
+  transform: translateY(10px);
+  transition: transform 1s ease-in-out,
+        opacity .5s ease-in-out;
+}
+
+.description.descriptionInView {
+  opacity: 1;
+  transform: translateY(0px);
+  padding: 0 5px;
+  text-align: justify
 }
