@@ -72,7 +72,7 @@ export default {
   },
 } as Meta<Button>;
 
-type Story = StoryObj<typeof SearchInput>;
+type Story = StoryObj<typeof Button>;
 export const Primary: Story = {};
 ```
 
