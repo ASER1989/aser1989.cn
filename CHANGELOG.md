@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.20
+
+### Patch Changes
+
+- add custom props document for storybook
+
 ## 1.0.19
 
 ### Patch Changes

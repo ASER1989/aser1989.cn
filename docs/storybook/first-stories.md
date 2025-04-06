@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 第一个文档
+# Hello world!
 
 先分享一个示例，新建一个文档`button.stories.ts`, 内容如下：
 ``` typescript
