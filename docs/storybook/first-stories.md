@@ -3,7 +3,9 @@ sidebar_position: 2
 ---
 
 # Hello world!
-
+:::warning
+文档内容基于 Storybook 8.6 版本的特性和功能编写，所提供示例代码为 React 或 Typescript内容。
+:::
 先分享一个示例，新建一个文档`button.stories.ts`, 内容如下：
 ``` typescript
 import { Meta, StoryObj } from '@storybook/react';

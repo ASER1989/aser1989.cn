@@ -7,6 +7,8 @@ Storybook 是一个开源项目，在 GitHub 上已有 83K+ star。它不仅用�
 2.	基于 TypeScript 组件类型定义自动生成组件参数文档；
 3.	**允许在文档中动态修改组件参数值，实时预览不同效果**。
 4. 基础文档建设难度低（大多数 [Nebula UI](https://ui.aser1989.cn/)  文档的编写时间不超过1分钟，主要得益于我的项目 [Nebula Note](https://www.aser1989.cn/)，可实现快速内容替换）。
+5. 文档中可以使用第三方库来丰富文档效果，如：Swiper、Mermaid、MathJax 等等。
+6. 支持多种框架（React、Vue、Angular、Svelte、Preact 等等），并且支持多种语言（TypeScript、JavaScript、HTML、CSS 等等）。
 
 ## 安装
 1、在项目根目录下运行以下命令，Storybook 会自动检测你的框架（React、Vue、Angular 等）并进行相应的安装：

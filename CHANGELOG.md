@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.22
+
+### Patch Changes
+
+- add enrich document
+
 ## 1.0.21
 
 ### Patch Changes

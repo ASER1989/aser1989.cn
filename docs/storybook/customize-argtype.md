@@ -2,6 +2,9 @@
 sidebar_position: 3
 ---
 # 自定义props描述
+:::warning
+文档内容基于 Storybook 8.6 版本的特性和功能编写，所提供示例代码为 React 或 Typescript内容。
+:::
 
 Storybook 的自动文档系统由`@storybook/addon-docs`提供支持，能够基于组件的元数据自动生成文档，尤其是`Props`表格和相关描述信息。
 然而，默认生成的`Props`描述往往不够完整或缺乏语义化说明。为了提升文档质量，我们可以通过配置`argTypes`属性，手动补充或优化组件参数的描述，使组件文档更加清晰、易于理解。
