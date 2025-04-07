@@ -2,14 +2,14 @@
 sidebar_position: 4
 ---
 
-# 文档中添加文字说明
+# 如何添加说明文档
 
 :::warning
 文档内容基于 Storybook 8.6 版本的特性和功能编写，所提供示例代码为 React 或 Typescript内容。
 :::
 每一段文字，都是与时间对话的桥梁，承载着智慧与经验的传承。
 
-在`Storybook`中， 有两种方式可以为文档添加文本介绍：
+在`Storybook`中， 有两种方式可以为文档添加丰富的图文介绍：
 
 + 使用`Autodocs`自动生成的基础模板,通过Meta配置的`parameters.docs`属性，为组件添加介绍内容；
 + 使用`MDX`为每个组件创建自定义的文档页面。
@@ -165,6 +165,8 @@ Meta 块用于定义文档在侧边栏中的位置。在这个例子中，它被
 <div style={{border: "solid 1px #c0c0c0", padding: 10, borderRadius: 3}}>
   ![example](source/img-4-2.png)
 </div>
+
+在`MDX`中，我们可以使用`Canvas`组件来嵌入故事（Story），并通过`of`属性指定要渲染的故事。我们还可以使用`ArgTypes`组件来展示组件的参数（Props）表格。同时，Markdown支持我们为文档添加更丰富的内容，如表格、图片、视频等。
 
 ## 参考资料
 [1 . Storybook Docs: MDX](https://storybook.js.org/docs/writing-docs/mdx)
