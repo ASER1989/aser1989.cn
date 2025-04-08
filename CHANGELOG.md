@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.25
+
+### Patch Changes
+
+- update readme
+
 ## 1.0.24
 
 ### Patch Changes
