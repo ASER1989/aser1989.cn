@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.1.2
+
+### Patch Changes
+
+- 添加博客：从零散笔记到结构化知识库
+
 ## 1.1.1
 
 ### Patch Changes
