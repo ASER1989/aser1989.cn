@@ -29,6 +29,13 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   headTags: [
     {
+      tagName: 'meta',
+      attributes: {
+        name: 'baidu-site-verification',
+        content:'codeva-DgulddGwaP'
+      }
+    },
+    {
       tagName: 'script',
       attributes: {
         type: 'text/javascript',

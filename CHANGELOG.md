@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.24
+
+### Patch Changes
+
+- add baidu verify
+
 ## 1.0.23
 
 ### Patch Changes
