@@ -1,5 +1,5 @@
-<h1 align="center">aser1989.cn</h1>
-<p align="center">
+<h1 align="left">aser1989.cn</h1>
+<p align="left">
 <img alt="License: MIT" src="https://img.shields.io/github/license/ASER1989/aser1989.cn" />
 </p>
 
