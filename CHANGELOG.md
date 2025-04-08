@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.0.26
+
+### Patch Changes
+
+- add sitemap
+
 ## 1.0.25
 
 ### Patch Changes

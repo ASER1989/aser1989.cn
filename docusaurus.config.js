@@ -91,6 +91,23 @@ const config = {
         },
       }),
     ],
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'daily',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+          createSitemapItems: async (params) => {
+            const {defaultCreateSitemapItems, ...rest} = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes('/page/'));
+          },
+        },
+      }
+    ]
   ],
   
   themeConfig:

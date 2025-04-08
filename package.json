@@ -1,6 +1,6 @@
 {
   "name": "aser1989.cn",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "private": true,
   "license": "CC0-1.0",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "3.6.0",
+    "@docusaurus/plugin-sitemap": "^3.7.0",
     "@docusaurus/preset-classic": "3.6.0",
     "@mdx-js/react": "^3.0.0",
     "classnames": "^2.5.1",
