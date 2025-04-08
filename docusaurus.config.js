@@ -168,7 +168,7 @@ const config = {
       ({
         hashed: true,
         language: ["en", "zh"],
-        highlightSearchTermsOnTargetPage: true,
+        highlightSearchTermsOnTargetPage: false,
         explicitSearchResultPath: true,
       }),
     ],

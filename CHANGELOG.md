@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.1.1
+
+### Patch Changes
+
+- update search config
+
 ## 1.1.0
 
 ### Minor Changes
