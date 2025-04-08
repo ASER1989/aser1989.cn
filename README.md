@@ -1,9 +1,6 @@
 <h1 align="center">aser1989.cn</h1>
 <p align="center">
-
 <img alt="License: MIT" src="https://img.shields.io/github/license/ASER1989/aser1989.cn" />
-<a href="https://www.aser1989.cn">欢迎访问：aser1989.cn</a>
-
 </p>
 
 我是一名以**Web 前端**为核心方向的软件工程师。平时无论是工作还是学习，我都有记录笔记的习惯。但由于这些年更换笔记软件、迁移数据等原因，笔记内容大多零散分散，缺乏系统性和完整性。为此，我决定将过往积累的笔记进行梳理和整理，逐步形成一份结构清晰、内容完整的文档资料。
