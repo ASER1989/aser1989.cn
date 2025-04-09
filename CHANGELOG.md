@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.1.4
+
+### Patch Changes
+
+- 新增 OpenResty 笔记文档
+
 ## 1.1.3
 
 ### Patch Changes
