@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.1.3
+
+### Patch Changes
+
+- 更新验证信息
+
 ## 1.1.2
 
 ### Patch Changes

@@ -32,7 +32,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'baidu-site-verification',
-        content:'codeva-DgulddGwaP'
+        content:'codeva-BJngVazL5l'
       }
     },
     {
