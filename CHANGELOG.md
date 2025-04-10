@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.1.6
+
+### Patch Changes
+
+- 新增博客：短信接口被刷爆
+
 ## 1.1.5
 
 ### Patch Changes
