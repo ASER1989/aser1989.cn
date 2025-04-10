@@ -1,10 +1,14 @@
 ---
-slug: redux
+slug: 20250114
 title: 再谈Redux
 authors: [xu]
 tags: [redux]
+description: 本文分享个人对前端状态管理的理解及 Redux 的独特用法，介绍轻量级开源库 @nebula-note/redux-hooks，实现像 hooks 一样优雅高效地管理共享状态，简化组件通信逻辑
 ---
+
 2025年再聊前端状态管理似乎是一件不必要的事，毕竟相关文章已堆积得如山如海。但在这些文章或视频内容中，我并没有找到自己喜欢的方案，准确的说是使用方式。所以这篇文章不做技术分析，主要聊聊个人对状态管理的理解，并分享独特的redux使用的方式。
+
+<!-- truncate -->
 
 ## 状态管理
 
@@ -31,7 +35,7 @@ const store = configureStore();
 ```
 #### 使用hooks管理状态
 下面是一个极度简单的使用案例，完整的。
-```ts
+```typescript
 import { useRedux } from '@nebula-note/redux-hooks';
 
 type ExampleState = {

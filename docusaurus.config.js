@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Aser1989.cn',
-  tagline: 'Dinosaurs are cool',
+  tagline: '花香蝶自来',
   favicon: 'img/favicon.ico',
   
   // Set the production url of your site here
@@ -77,14 +77,13 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://www.aser1989.cn/blog',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          postsPerPage: 'ALL',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: '所有文章',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -114,7 +113,7 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'keywords', content: 'aser1989,aser1989.cn,docs,blog'},
+        {name: 'keywords', content: 'aser1989, aser1989.cn, 个人网站, 技术博客, 技术文档, 前端开发, React, Vue, K3s, Storybook, Nebula Graph, DevOps, 前端组件库, 开发笔记, 技术分享'},
       ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',

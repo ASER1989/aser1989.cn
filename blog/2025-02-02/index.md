@@ -3,8 +3,12 @@ slug: deepseek-locally
 title: 本地部署DeepSeek
 authors: [xu]
 tags: [AI]
+description: 本文详解如何在 Mac 上通过 Ollama、DeepSeek-R1 与 Enchanted 快速实现大模型本地部署，涵盖模型选择、常见报错及 UI 工具配置，助你轻松开启 AI 本地化探索之旅。
 ---
 没想到新年最热闹的地方之一会是互联网，刷爆朋友圈的除了新年祝福还有DeepSeek。揣着一颗好奇心试了试，竟有一种发现新大路的感觉。估计是围观的人太多，在线的版本有时候会出现连不上的情况，好奇心驱使之下想尝试本地部署。
+
+<!-- truncate -->
+
 ## 方案
 本地化方案非常简单：Ollama + DeepSeek-R1 + Enchanted LLM 。
 ### [Ollama](https://ollama.com/)

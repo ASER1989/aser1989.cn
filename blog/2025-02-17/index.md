@@ -3,8 +3,11 @@ slug: https
 title: 前端视角看 HTTPS
 authors: [xu]
 tags: [HTTPS]
+description: 分享从前端开发视角出发，深入解析 HTTPS 必要性、浏览器 API 安全限制及证书申请流程，结合实际项目经验和 Caddy 自动配置实践，助力开发者全面提升网站安全性。
 ---
 最近用`Docusaurus`搭了一个个人网站，部署后看到浏览器地址栏上“不安全”三个字感觉特别辣眼，便不由自主的想起了`HTTPS`。回忆起自己在日常开发中遇到的一些与`HTTPS`相关的知识，忍不住想将这些年积累的一些细节和心得体会整理一下。
+
+<!-- truncate -->
 
 ## 为什么要使用HTTPS
 

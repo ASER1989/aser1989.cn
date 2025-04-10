@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.1.8
+
+### Patch Changes
+
+- 更新博客设置，添加 description
+
 ## 1.1.7
 
 ### Patch Changes
