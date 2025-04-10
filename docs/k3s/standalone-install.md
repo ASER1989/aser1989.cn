@@ -10,10 +10,12 @@ https://github.com/k3s-io/k3s/releases/latest/download/k3s
 ```
 
 ## 安装
+上传安装文件：
 ``` sh 
 scp k3s root@ip:/usr/local/bin/
 ```
 
+添加执行权限：
 ```sh
 sudo chmod +x /usr/local/bin/k3s
 ```

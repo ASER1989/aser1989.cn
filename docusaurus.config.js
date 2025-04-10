@@ -69,7 +69,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ASER1989/aser1989.cn',
+            'https://github.com/ASER1989/aser1989.cn/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -129,14 +129,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'right',
-            label: 'Docs',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
-          // {
-          //   position: 'right',
-          //   label: 'About',
-          //   href: '/about',
-          // },
+          {to: '/blog', label: '博客', position: 'right'},
           {
             href: 'https://github.com/ASER1989/aser1989.cn',
             label: 'GitHub',
@@ -172,6 +167,10 @@ const config = {
         explicitSearchResultPath: true,
       }),
     ],
+  ],
+  plugins: [
+    // '@docusaurus/plugin-content-blog',
+    // '@docusaurus/plugin-content-pages',
   ],
 };
 
