@@ -51,7 +51,7 @@ spec:
       middlewares:
         - name: https-redirect
       services:
-        - name: my-service
+        - name: aser1989-cn-service
           port: 80
 
 ---
