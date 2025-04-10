@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.1.9
+
+### Patch Changes
+
+- 导航标题调整
+
 ## 1.1.8
 
 ### Patch Changes

@@ -128,9 +128,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'right',
-            label: '文档',
+            label: '文档中心',
           },
-          {to: '/blog', label: '博客', position: 'right'},
+          {to: '/blog', label: '我的博客', position: 'right'},
           {
             href: 'https://github.com/ASER1989/aser1989.cn',
             label: 'GitHub',
@@ -166,10 +166,6 @@ const config = {
         explicitSearchResultPath: true,
       }),
     ],
-  ],
-  plugins: [
-    // '@docusaurus/plugin-content-blog',
-    // '@docusaurus/plugin-content-pages',
   ],
 };
 
