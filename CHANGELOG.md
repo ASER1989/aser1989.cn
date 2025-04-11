@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.1.10
+
+### Patch Changes
+
+- 新增 k8s dashboard 安装文档
+
 ## 1.1.9
 
 ### Patch Changes
