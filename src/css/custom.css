@@ -6,40 +6,65 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: rgba(255, 0, 0, 0.85);
-  --ifm-color-primary-dark: #FF0000;
-  --ifm-color-primary-darker: #FF0000;
-  --ifm-color-primary-darkest: #FF0000;
-  --ifm-color-primary-light: #FF000090;
-  --ifm-color-primary-lighter: #FF000090;
-  --ifm-color-primary-lightest: #FF000090;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  font-size: 14px;
-  --search-local-input-active-border-color: #ffa006;
-  --ifm-container-width-xl:99%;
+    --ifm-color-primary: rgba(255, 0, 0, 0.85);
+    --ifm-color-primary-dark: #FF0000;
+    --ifm-color-primary-darker: #FF0000;
+    --ifm-color-primary-darkest: #FF0000;
+    --ifm-color-primary-light: #FF000090;
+    --ifm-color-primary-lighter: #FF000090;
+    --ifm-color-primary-lightest: #FF000090;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    --search-local-input-active-border-color: #ffa006;
+    --ifm-container-width-xl: 99%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #FF6A00;
-  --ifm-color-primary-dark: #FF6A00;
-  --ifm-color-primary-darker: #FF6A00;
-  --ifm-color-primary-darkest: #FF6A00;
-  --ifm-color-primary-light: #FF6A00;
-  --ifm-color-primary-lighter: #FF6A0090;
-  --ifm-color-primary-lightest: #FF6A0090;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+    --ifm-color-primary: #FF6A00;
+    --ifm-color-primary-dark: #FF6A00;
+    --ifm-color-primary-darker: #FF6A00;
+    --ifm-color-primary-darkest: #FF6A00;
+    --ifm-color-primary-light: #FF6A00;
+    --ifm-color-primary-lighter: #FF6A0090;
+    --ifm-color-primary-lightest: #FF6A0090;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 
+.aser1989-demo-box {
+    border: solid 1px #efefef;
+    margin: 20px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 3px 0 #e0e0e0;
+}
 
-.aser1989-demo-box { border: solid 1px #efefef;margin: 20px 5px; border-radius: 5px;overflow: hidden;box-shadow: 4px 3px 3px 0 #f0f0f0,4px -3px 3px 0 #f7f7f7;}
+.aser1989-demo-box .demo-box-header {
+    padding: 10px 20px;
+    border-bottom: solid 1px #e0e0e0;
+    font-size: 16px;
+    color: #000000;
+    text-shadow: 1px 1px 1px #e0e0e0;
+    z-index: 1;
+    position: relative;
+    background: #fefef2;
+    display: flex;
+    justify-content: space-between;
+}
 
-.aser1989-demo-box .demo-box-header { padding:10px 20px; border-bottom:solid 1px #e0e0e0;font-size:16px;color:#000000;text-shadow:1px 1px 1px #e0e0e0;z-index:1;position: relative;background:#fefef2;display:flex;justify-content: space-between; }
+.aser1989-demo-box .demo-box-header .demo-box-title {
+    transition: all 0.3s;
+    height: 25px;
+    cursor: default;
+}
 
-.aser1989-demo-box .demo-box-header .demo-box-title{transition:all 0.3s;height:25px;cursor:default;}
+.aser1989-demo-box .demo-box-header .demo-box-title:hover {
+    font-size: 17px
+}
 
-.aser1989-demo-box .demo-box-header .demo-box-title:hover{font-size:17px}
-
-.aser1989-demo-box .demo-box-header a{font-size:16px;cursor:pointer}
+.aser1989-demo-box .demo-box-header a {
+    font-size: 16px;
+    cursor: pointer
+}

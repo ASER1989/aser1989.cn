@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.1.12
+
+### Patch Changes
+
+- 效果预览样式调整
+
 ## 1.1.11
 
 ### Patch Changes
