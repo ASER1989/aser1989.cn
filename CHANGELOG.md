@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.1.11
+
+### Patch Changes
+
+- 新增博客:用 Storybook 构建交互式组件文档
+
 ## 1.1.10
 
 ### Patch Changes
