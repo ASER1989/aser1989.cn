@@ -125,6 +125,10 @@ const config = {
         },
         items: [
           {
+            type: 'search',
+            position: 'left',
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'right',
@@ -163,7 +167,7 @@ const config = {
         hashed: true,
         language: ["en", "zh"],
         highlightSearchTermsOnTargetPage: false,
-        explicitSearchResultPath: true,
+        explicitSearchResultPath: true
       }),
     ],
   ],

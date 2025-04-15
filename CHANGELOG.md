@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.2.0
+
+### Minor Changes
+
+- 调整搜索框位置
+
 ## 1.1.12
 
 ### Patch Changes
