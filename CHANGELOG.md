@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.2.1
+
+### Patch Changes
+
+- 添加 Electron 相关文档
+
 ## 1.2.0
 
 ### Minor Changes
