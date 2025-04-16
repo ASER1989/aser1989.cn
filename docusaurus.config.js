@@ -137,8 +137,9 @@ const config = {
           {to: '/blog', label: '我的博客', position: 'right'},
           {
             href: 'https://github.com/ASER1989/aser1989.cn',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },

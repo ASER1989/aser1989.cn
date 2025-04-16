@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.2.2
+
+### Patch Changes
+
+- 更新 github 链接样式
+
 ## 1.2.1
 
 ### Patch Changes
