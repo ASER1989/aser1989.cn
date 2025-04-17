@@ -108,12 +108,12 @@ const config = {
       }
     ],
   ],
-  
   themeConfig:
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'keywords', content: 'aser1989, aser1989.cn, 个人网站, 技术博客, 技术文档, 前端开发, React, Vue, K3s, Storybook, Nebula Graph, DevOps, 前端组件库, 开发笔记, 技术分享'},
+        {name: 'keywords', content: 'aser,aser1989,aser1989.cn,ASER1989,博客,文档,前端,React,Vue,k8s,Storybook,Nebula,DevOps,Redux,Developer,Programmer,Coder,Geek,Coding,Code'},
+        {name: 'description', content: 'aser1989.cn 是一个集博客、文档和个人作品于一体的技术网站，专注于前端开发、React、Vue、NodeJs、Kubernetes、DevOps、Storybook、Redux 等领域的学习、实践与经验分享。'},
       ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',

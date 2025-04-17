@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.2.3
+
+### Patch Changes
+
+- update description
+
 ## 1.2.2
 
 ### Patch Changes
