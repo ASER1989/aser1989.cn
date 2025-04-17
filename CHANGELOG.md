@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.2.4
+
+### Patch Changes
+
+- remove layout title props
+
 ## 1.2.3
 
 ### Patch Changes
