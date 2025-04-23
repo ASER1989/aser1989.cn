@@ -48,3 +48,30 @@ electron_mirror=https://npmmirror.com/mirrors/electron/
 yarn install --ignore-scripts
 ```
 
+### 常见卡住原因
+**1. 网络问题**
+
+Electron 安装过程中会从 GitHub CDN 下载二进制文件，如果被墙或不稳定，容易卡死。
+
+配置镜像源(命令行):
+```shell
+export ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/
+export ELECTRON_BUILDER_BINARIES_MIRROR=https://npmmirror.com/mirrors/electron-builder-binaries/
+```
+或者直接写进 .zshrc 或 .bash_profile：
+```shell
+echo 'export ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/' >> ~/.zshrc
+echo 'export ELECTRON_BUILDER_BINARIES_MIRROR=https://npmmirror.com/mirrors/electron-builder-binaries/' >> ~/.zshrc
+source ~/.zshrc
+```
+
+
+**2.node_modules 缓存或 lock 文件异常**
+
+如果之前断过安装，或者用了不同版本的 Node/yarn，可能导致依赖安装死循环或冲突。可以通过清理重新安装：
+```shell
+rm -rf node_modules
+rm -f yarn.lock
+yarn cache clean
+yarn install
+```

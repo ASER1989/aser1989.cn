@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.2.5
+
+### Patch Changes
+
+- 更新 electron 安装文档
+
 ## 1.2.4
 
 ### Patch Changes
