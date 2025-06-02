@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.2.6
+
+### Patch Changes
+
+- 更新首页文档 & 新增博客：web 性能优化
+
 ## 1.2.5
 
 ### Patch Changes
