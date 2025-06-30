@@ -37,6 +37,28 @@ spec:
   type: ClusterIP  # Service 类型（可改为 NodePort 或 LoadBalancer）
 
 ---
+
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: aser1989-cn-cert
+  namespace: default
+spec:
+  secretName: aser1989-cn-cert  # Traefik 会用这个 secret 提供 HTTPS
+  issuerRef:
+    name: letsencrypt-production
+    kind: ClusterIssuer
+  commonName: www.aser1989.cn
+  dnsNames:
+    - www.aser1989.cn
+  usages:
+    - digital signature
+    - key encipherment
+  privateKey:
+    algorithm: RSA
+    size: 2048
+
+---
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
 metadata:
@@ -75,4 +97,4 @@ spec:
         - name: compress-middleware
         # - name: cache-control
   tls:
-    secretName: aser1989-blog-cert
+    secretName: aser1989-cn-cert
