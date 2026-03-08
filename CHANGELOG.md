@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.2.8
+
+### Patch Changes
+
+- Add config map guide
+
 ## 1.2.7
 
 ### Patch Changes
