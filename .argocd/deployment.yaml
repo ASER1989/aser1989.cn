@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name:  aser1989-cn
-          image: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:1.2.5
+          image: registry.cn-hangzhou.aliyuncs.com/aser/aser1989.cn:1.2.7
           imagePullPolicy: Always
           ports:
             - containerPort: 80
@@ -35,6 +35,28 @@ spec:
       port: 80       # Service 暴露的端口
       targetPort: 80 # 发送到 Pod 内部的端口
   type: ClusterIP  # Service 类型（可改为 NodePort 或 LoadBalancer）
+
+---
+
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: aser1989-cn-cert
+  namespace: default
+spec:
+  secretName: aser1989-cn-cert  # Traefik 会用这个 secret 提供 HTTPS
+  issuerRef:
+    name: letsencrypt-production
+    kind: ClusterIssuer
+  commonName: www.aser1989.cn
+  dnsNames:
+    - www.aser1989.cn
+  usages:
+    - digital signature
+    - key encipherment
+  privateKey:
+    algorithm: RSA
+    size: 2048
 
 ---
 apiVersion: traefik.io/v1alpha1
@@ -75,4 +97,4 @@ spec:
         - name: compress-middleware
         # - name: cache-control
   tls:
-    secretName: aser1989-blog-cert
+    secretName: aser1989-cn-cert

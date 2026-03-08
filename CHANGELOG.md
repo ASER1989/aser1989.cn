@@ -1,5 +1,11 @@
 # aser1989.cn
 
+## 1.2.7
+
+### Patch Changes
+
+- 博客更名
+
 ## 1.2.6
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 ---
 slug: 20250602
-title: Web性能优化：从 2 秒到秒开
+title: Web性能优化：从 2 秒到200毫秒
 authors: [xu]
 tags: [Frontend, Performance]
 ---
